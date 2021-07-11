@@ -34,7 +34,7 @@ ref.once("value")
 
     console.log(number)    
 
-    
+    document.getElementById("numChild").innerHTML=number;
 
     
 
