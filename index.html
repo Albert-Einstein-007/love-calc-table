@@ -1,0 +1,274 @@
+  <!DOCTYPE html>
+
+  
+
+  <html lang="en">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <head>
+
+  
+
+      <title>Love Calculator Data Table</title>
+
+  
+
+      <style>
+
+  
+
+          body{
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+          }
+
+  
+
+      th{
+
+  
+
+      border-bottom:5px solid black;
+
+  
+
+      background-color:aqua;
+
+  
+
+      }
+
+  
+
+      #border {
+
+  
+
+      border:3px solid red;
+
+  
+
+      }
+
+  
+
+      table, td { 
+
+  
+
+      border-bottom:2px solid black;;
+
+  
+
+                  border-collapse: collapse;
+
+                  
+
+  
+
+         text-align:center;}
+
+  
+
+      th{padding: 7px;}
+
+  
+
+      td{font-decoration:bold;}
+
+  
+
+      h2{text-align:center;}
+
+  
+
+      td{
+
+  
+
+         font-weight:bold;
+
+  
+
+          padding-top: 3px;
+
+  
+
+          padding-bottom: 3px;
+
+  
+
+          }
+
+  
+
+          
+
+  
+
+          #table {
+
+  
+
+          background-color:#FF3B6A;
+
+  
+
+          border: 3px solid #11FF6B ;
+
+          box-shadow: 3px 5px 4px black;
+
+  
+
+          }
+
+  
+
+    #delete{
+
+      color: black  ;
+
+      border:3px solid #000000 ;
+
+      font-size: 20px;
+
+      border-radius: 5px;
+
+      background: #FF0000;
+
+      padding-left: 20px;
+
+      margin: 20px;
+
+    }
+
+  
+
+  #dldiv{
+
+    display: flex;
+
+    flex-direction: column;
+
+  }
+
+  
+
+      </style >
+
+  
+
+  </head>
+
+  
+
+  <body>
+
+    <div >
+
+      <div id="dldiv">
+
+              
+
+  <h2>Total Users : <span id="numChild"></span></h2>
+
+  
+
+      <button onclick="dlt()" id="delete"> Delete All</button>
+
+  
+
+      </div>
+
+      <table id="table">
+
+        
+
+        
+
+  
+
+         <tr>
+
+  
+
+              <th>Num </th>
+
+  
+
+              <th>User Name</th>
+
+  
+
+              <th>Lover Name</th>
+
+              
+
+              <th>persentage</th>
+
+              
+
+  
+
+         </tr>
+
+  
+
+         
+
+  
+
+         
+
+  
+
+              
+
+  
+
+      </table>
+
+  
+
+      </div>
+
+  
+
+      
+
+  
+
+      </body>
+
+  
+
+      <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+  
+
+      <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+  
+
+    <script src="view table fire.js">
+
+  
+
+    
+
+  
+
+  </script>
+
+  
+
+  </html>
+
+  
+
